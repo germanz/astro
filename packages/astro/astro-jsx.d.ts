@@ -570,7 +570,7 @@ declare namespace astroHTML.JSX {
 		srcset?: string | undefined | null;
 		start?: number | undefined | null;
 		step?: number | string | undefined | null;
-		style?: string | undefined | null;
+		style?: string | Record<string, any> | undefined | null;
 		summary?: string | undefined | null;
 		tabindex?: number | undefined | null;
 		target?: string | undefined | null;
@@ -637,7 +637,7 @@ declare namespace astroHTML.JSX {
 		method?: string | undefined | null;
 		min?: number | string | undefined | null;
 		name?: string | undefined | null;
-		style?: string | undefined | null;
+		style?: string | Record<string, any> | undefined | null;
 		target?: string | undefined | null;
 		type?: string | undefined | null;
 		width?: number | string | undefined | null;
