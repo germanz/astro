@@ -1,8 +1,5 @@
 import type { AstroConfig } from '../@types/astro';
 import type { LogOptions } from './logger/core';
-
-import fs from 'fs';
-import { builtinModules } from 'module';
 import { fileURLToPath } from 'url';
 import * as vite from 'vite';
 import astroPostprocessVitePlugin from '../vite-plugin-astro-postprocess/index.js';
